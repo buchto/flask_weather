@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Czesc {% endblock %}
+
+{% block content %}
+    {% if imie%}
+        <h1>Cześć, {{ imie }}</h1>
+    {% else %}
+        <h1>Czesc wam</h1>
+    {% endif %}
+{% endblock %}
